@@ -1,0 +1,31 @@
+@import "bootstrap/dist/css/bootstrap";
+
+// .navbar-brand{
+//   font-size: 3em;
+// }
+
+.search-area{
+  padding-top: 50px;
+}
+
+.no-right.padding{
+  padding-right: 0px !important;
+}
+
+.no-left-padding{
+  padding-left: 0px !important;
+}
+
+.results-block{
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.logout-button{
+  margin-right: 5px;
+}
+
+.user-name{
+  margin-top: 3.5%;
+  padding-right: 5px;
+}
