@@ -17,5 +17,5 @@
 <div id="results">
 </div>
 <% if @tracked_stocks.present? %>
-  <%= render "stocks/list", tracked_stocks: @tracked_stocks %>
+  <%= render "stocks/list", tracked_stocks: @tracked_stocks, user: current_user %>
 <% end %>
